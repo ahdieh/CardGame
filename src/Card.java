@@ -1,7 +1,7 @@
 
 public class Card {
 
-	// PRIVATE VARIABELS +++++++++++++++
+	// PRIVATE VARIABLES +++++++++++++++
 	private final String _face;
 	private final String _suit;
 	
@@ -14,6 +14,6 @@ public class Card {
 	
 	// PUBLIC METHODS +++++++++
 	public String toString(){
-		return String.format(this._face,"of", this._suit);
+		return String.format("%s of %s",this._face, this._suit);
 	}
 }
